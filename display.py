@@ -1,0 +1,26 @@
+def display():
+    print("____________________________________________________")
+    print('python')
+    print('java')
+    print('c')
+    print('c++')
+    print('go_lang')
+    print('SQL')
+display()
+display()
+display()
+display()
+display()
+print("____________________________________________________")
+def servefood():
+    print('serve food')
+def eat():
+    print('eat food')
+def washhands():
+    print('wash your hands')
+    servefood()
+    eat()
+    print('wash your hands')
+washhands()
+eat()
+servefood()
